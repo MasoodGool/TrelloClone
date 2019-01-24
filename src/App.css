@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  white-space: nowrap;
+  background-color: salmon;
+}
+
+p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.board {
+  background-color: salmon;
+  float: left;
+  word-wrap: break-word;
+}
+
+.card {
+  background-color: floralwhite;
+}
+
+/*--------------HEADER--------------------*/
+
+header {
+  background-color: maroon;
+  background-size: cover;
+  background-position: center;
+  height: 45px;
+}
+
+li {
+  display: inline-block;
+  margin: auto;
+}
+
+.row {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+/*--------------BUTTONS--------------------*/
+
+.btn-add {
+  height: 30px;
+  display: inline-block;
+  border: none;
+
+  margin: 0;
+  text-decoration: none;
+  background: lightcyan;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.btn-add:hover,
+.btn-add:focus {
+  background: rgb(218, 132, 110);
+}
+
+.btn-add:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.btn-add:active {
+  transform: scale(0.99);
+}
+
+.btn-completed {
+  height: 30px;
+  display: inline-block;
+  border: none;
+
+  margin: 0;
+  text-decoration: none;
+  background: red;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.btn-completed:hover,
+.btn-completed:focus {
+  background: rgb(218, 132, 110);
+}
+
+.btn-completed:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.btn-completed:active {
+  transform: scale(0.99);
+}
