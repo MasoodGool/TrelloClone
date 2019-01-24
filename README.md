@@ -7,13 +7,12 @@ This is a Trello like dashboard clone. It was built from the ground up purely in
 https://masoodtrelloclone.herokuapp.com/
 
 
-## Available Scripts
+To run the app locally:
 
-In the project directory, you can run:
+```bash
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+npm install
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+```
